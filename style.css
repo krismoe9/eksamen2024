@@ -1307,10 +1307,21 @@ table, th, td{
 }
 
 .pd-f{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 1rem 1rem 1rem;
+    padding: 10px;
+    span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
 }
+    
+
 
 .complete-btn{
     display: flex;
@@ -2301,6 +2312,28 @@ Border radius: 25px;
 
     #span6{
         margin-right: 4px; 
+    }
+
+    .pd-f{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        span{
+            width: calc(50% - 2px);
+        }
+
+
+    }
+
+    
+    #s1{
+        width: 100%;
+    }
+
+    #s2{
+        margin-right: 4px;
     }
 
 
