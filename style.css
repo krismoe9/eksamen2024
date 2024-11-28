@@ -2282,7 +2282,7 @@ Border radius: 25px;
 
         
         span{
-            width: calc(50% - 2px)
+            width: calc(50% - 2px);
         }
 
     }
