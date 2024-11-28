@@ -1,16 +1,318 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ikoner/css/fontawesome.css" rel="stylesheet">
+    <link href="ikoner/css/brands.css" rel="stylesheet">
+    <link href="ikoner/css/solid.css" rel="stylesheet">
+    <link href="ikoner/css/regular.css" rel="stylesheet">
+    <link href="ikoner/css/regular.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Forside</title>
+    <title>Shoppingbagen din</title>
 </head>
 <body>
- <div id="grid-container">
-    <header>
-   
-    </header>
- </div>
+    <div id="grid-container">
+        <header>
+            <nav class="navbar">
+                <form class="search">
+                    <input type="search" placeholder="Søk">
+                    <i class="fas fa-search"></i>
+                </form>
+                <ul class="meny">
+                    <li><a href="index.html" class="nav-info">Hjem</a></li>
+                    <li><a href="product.html" class="nav-info">Produkter</a></li>
+                    <li><a href="index.html" class="logo">Logo</a></li>
+                    <li><a href="index.html#category" class="nav-info">Kategorier</a></li>
+                    <li><a href="index.html#footer" class="nav-info">Kontakt oss</a></li>
+                </ul>
+                <ul class="ikoner">
+                    <li><a href="index.html"><i class="fa-regular fa-user fas hover-grow"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart fas hover-grow"></i></a></li>
+                    <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping fas hover-grow"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+           <div id="p-c-container">
+                <header id="c-header">
+                    <a href="product.html" id="back-link"><i class="fa-solid fa-arrow-left"></i> Fortsett å handle</a> 
+                    <h2>Kasse</h2>
+                </header>
+                    <section class="cart-items a-b-c">
+                     <h3 class="h3">1. Shoppingbagen din</h3>
+                        <article class="cart-card c-c-1">
+                            <img src="https://picsum.photos/290/290" class="c-prod-photo" alt="picture of product">
+                            <section class="c-test">
+                                <ul class="c-prod">
+                                    <li class="c-name">Product name</li>
+                                    <li class="c-price">Kr 1999</li>
+                                    <li class="c-color">Farge: <strong>beige</strong></li>
+                                </ul>
+                                <section class="c-options">
+                                <form class="c-size-form">
+                                    <label>Størrelse</label>
+                                    <select class="c-size">
+                                        <option value="extra-small">XS</option>
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </form>
+                                <form class="c-number" action="/action_page.php">
+                                    <label>Antall:</label>
+                                    <input type="number" class="c-quantity" min="1" max="99">
+                                </form>
+                                </section>
+                                <ul class="c-ikon">
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-trash"></i></li>
+                                </ul>
+                            </section>
+                        </article>
+
+                        <article class="cart-card c-c-2">
+                            <img src="https://picsum.photos/290/290" class="c-prod-photo" alt="picture of product">
+                            <section class="c-test">
+                                <ul class="c-prod">
+                                    <li class="c-name">Product name</li>
+                                    <li class="c-price">Kr 1999</li>
+                                    <li class="c-color">Farge: <strong>beige</strong></li>
+                                </ul>
+                                <section class="c-options">
+                                <form class="c-size-form">
+                                    <label>Størrelse</label>
+                                    <select class="c-size">
+                                        <option value="extra-small">XS</option>
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </form>
+                                <form class="c-number">
+                                    <label>Antall:</label>
+                                    <input type="number" class="c-quantity" min="1" max="99">
+                                </form>
+                                </section>
+                                <ul class="c-ikon">
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-trash"></i></li>
+                                </ul>
+                            </section>
+                        </article>
+
+                        <article class="cart-card c-c-3">
+                            <img src="https://picsum.photos/290/290" class="c-prod-photo" alt="picture of product">
+                            <section class="c-test">
+                                <ul class="c-prod">
+                                    <li class="c-name">Product name</li>
+                                    <li class="c-price">Kr 1999</li>
+                                    <li class="c-color">Farge: <strong>beige</strong></li>
+                                </ul>
+                                <section class="c-options">
+                                <form class="c-size-form">
+                                    <label>Størrelse</label>
+                                    <select class="c-size">
+                                        <option value="extra-small">XS</option>
+                                        <option value="small">S</option>
+                                        <option value="medium">M</option>
+                                        <option value="large">L</option>
+                                        <option value="extra-large">XL</option>
+                                    </select>
+                                </form>
+                                <form class="c-number">
+                                    <label>Antall:</label>
+                                    <input type="number" class="c-quantity" min="1" max="99">
+                                </form>
+                                </section>
+                                <ul class="c-ikon">
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-trash"></i></li>
+                                </ul>
+                            </section>
+                        </article>
+                    </section>
+
+
+                    
+                    <section class="customer-info a-b-c">
+                        <h3 class="h3">2. Dine opplysninger</h3>
+                        <p>Leveringsadresse</p>
+                        <form class="ci-a">
+                            <span id="span1">
+                                <label>Fornavn:</label>
+                                <input type="text" class="fname ci-ab"  placeholder="Kari*">
+                            </span>
+
+                            <span id="span2">
+                                <label >Etternavn:</label>
+                                <input type="text" class="lname ci-ab" placeholder="Normann*">
+                            </span>
+
+                            <span id="span3">
+                                <label>Adresse:</label>
+                                <input type="text" class="adress ci-ab" placeholder="B R A veien 4*">
+                            </span>
+
+                            <span id="span4">
+                                <label>Postnummer:</label>
+                                <input type="number" class="zipcode ci-ab" placeholder="1752*">
+                            </span>
+
+                            <span id="span5">
+                                <label >Sted:</label>
+                                <input type="text" class="location ci-ab" placeholder="Halden*">
+                            </span>
+                        </form>
+
+                        <h3>Kontaktinformasjon</h3>
+                        <form class="ci-a">
+                            <span id="span6">
+                                <label>Epost:</label>
+                                <input type="email" class="email ci-ab" placeholder="karinormann@epost.no">
+                            </span>
+
+                            <span id="span7">
+                                <label>Telefon:</label>
+                                <input type="tel" class="phone ci-ab" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+ 47 987 65 432">
+                            </span>
+
+                            <button class="p-btn c-btn" type="submit">Lagre</button>
+                            <a href="product.html" id="cancel-btn">Avbryt</a>
+                        </form>
+                    </section>
+
+
+
+                    <section class="delivery-details a-b-c">
+                      <h3 class="h3 h-d-1">3. Levering</h3>
+                        <h4 class="h4 h-d-2">Leveringsvalg</h4>
+                            <form>
+                                <fieldset class="field-delivery f-d-1">
+                                    <input type="radio" id="express" name="option">
+                                    <label>Ekspress Hjemlevering</label>
+                                    <ul>
+                                        <li class="d-d-time">3-4 virkedager</li>
+                                        <li class="d-d-price ddp1">59 kr<i class="fa-solid fa-truck-fast"></i></li>
+                                        <li class="d-d-info">
+                                            bestill hver dag før kl. 8:00* for levering neste arbeidsdag.
+                                            Leveres hjem til deg før frokost mandag til lørdag. *For levering til 
+                                            postnummer 4000-7999 er leveringstiden 2 arbeidsdager, for postnummer 	
+                                            8000-9999 er leveringstiden 3 arbeidsdager
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                                
+                                <fieldset class="field-delivery f-d-2">
+                                    <input type="radio" id="express-utlevering" name="option">
+                                    <label>Ekspresspakke til utleveringssted</label>
+                                    <ul>
+                                        <li class="d-d-time">1-3 virkedager</li>
+                                        <li class="d-d-price ddp2">59 kr<i class="fa-brands fa-dhl"></i></li>
+                                    </ul>
+                                </fieldset>
+
+                                <fieldset class="field-delivery f-d-3">
+                                    <input type="radio" id="standard" name="option">
+                                    <label>Standard hjemlevering</label>
+                                    <ul>
+                                        <li class="d-d-time">5-8 virkedager</li>
+                                        <li class="d-d-price ddp3">Gratis<i class="fa-solid fa-box"></i></li>
+                                        <li class="d-d-info">Leveres hjem til deg før frokost mandag til lørdag innen 4-7 hverdager</li>
+                                    </ul>
+                                </fieldset>
+                            </form> 
+                    </section>
+
+
+
+                    <section class="payment-details a-b-c">
+                        <h3 class="h3">4. Betaling</h3>
+                        <h4 class="h4">Betaling med kort <i class="fa-solid fa-credit-card"></i></h4>
+                            <form class="pd-f">
+                                <label>Kortnummer</label>
+                                <input type="number" class="cardnumber ci-ab" placeholder="1234 5678 9000" min="1" max="999999999999">
+                                <label>Utløpsdato</label>    
+                                <input type="date" class="expiration ci-ab">
+                                <label>CVC</label>
+                                <input type="text" class="cvc ci-ab" placeholder="CVC/CVV">
+                            </form>
+                            <article class="complete-btn">
+                                <p>Å betale inkl. mva.</p>
+                                <p id="final-price">1 199 kr</p>
+                                <button class="p-btn c-btn" type="submit">Fullfør kjøp</button>
+                                <p>Du bekrefter herved at opplysningene og dokumentene du har
+                                    oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
+                                    retten til å heve eller avslutte avtaleforholdet dersom det
+                                    foreligger uriktige eller ufullstendige opplysninger.</p>
+                            </article>
+                            <form class="checkbox-form">
+                                    <span class="checkbox-span">
+                                        <input type="checkbox" id="nyhetsbrev">
+                                        <label> Ja takk! Send nyhetsbrev til meg.</label>
+                                    </span>
+                                    <span class="checkbox-span">
+                                        <input type="checkbox" id="tilbud">
+                                        <label> Jeg ønsker å motta tekstmeldinger med tilbud og nyheter</label>
+                                    </span>
+                              </form>
+                    </section>
+           </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <section id="section1">
+                    <a href="#" class="logo">Logo</a>
+                    <p> Temporibus autem quibusdam et aut officiis debitis aut rerum</p>
+                </section>
+                <section id="section2">
+                <ul class="footer-list">
+                    <li>
+                        <h4  id="contact" class="so-me-h4">Kontakt</h4>
+                    </li>
+                    <li class="adress">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="list-details">Adresse:</p>
+                        <p>B R A veien 8, 1757 Halden</p>
+                    </li>
+                    <li class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="list-details">Telefon:</p>
+                        <p>69 60 80 00</p>
+                    </li>
+                    <li class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="list-details">E-post:</p>
+                        <p>halden@hiof.no</p>
+                    </li>
+                    <li class="hours">
+                        <i class="fa-solid fa-clock"></i>
+                        <p class="list-details">Åpningstider:</p>
+                        <p>Stenger 15:00</p>
+                    </li>
+                </ul>
+                </section>
+                <section id="section3">
+                    <ul class="footer-list">
+                        <li><h4 class="so-me-h4">Snarveier</h4></li>
+                        <li><a href="#products">Produkter</a></li>
+                        <li><a href="#category">Kategorier</a></li>
+                        <li><a href="#contact">Kontakt oss</a></li>
+                    </ul>
+                </section>
+                <section id="section4">
+                  <h4 class="so-me-h4">Sosiale medier</h4>
+                    <ul class="footer-list">
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram icon-some"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icon-some"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin icon-some"></i></a></li>
+                        <li><a href="https://no.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest icon-some"></i></a></li>
+                    </ul>
+                </section>
+            </div>
+        </footer>
+    </div> 
 </body>
 </html>

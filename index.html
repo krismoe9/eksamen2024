@@ -3,41 +3,352 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ikoner/css/solid.css">
-    <link rel="stylesheet" href="ikoner/css/regular.css">
-    <link rel="stylesheet" href="ikoner/css/fontawesome.css">
-    <link rel="stylesheet" href="ikoner/css/brands.css">
+    <link href="ikoner/css/fontawesome.css" rel="stylesheet">
+    <link href="ikoner/css/brands.css" rel="stylesheet">
+    <link href="ikoner/css/solid.css" rel="stylesheet">
+    <link href="ikoner/css/regular.css" rel="stylesheet">
+    <link href="ikoner/css/regular.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Forside</title>
 </head>
 <body>
- <div id="gridcontainer">
-    <header class="header">
-        <nav class="nav">
-            <div class="search">
-                <form>
-                    <input type="text" placeholder="Søk">
+    <div id="grid-container">
+        <header>
+            <nav class="navbar">
+                <form class="search">
+                    <input type="search" placeholder="Søk">
                     <i class="fas fa-search"></i>
                 </form>
-            </div>
-            <ul class="menu">
-                <li><a href="#">Hjem</a></li>
-                <li><a href="#">Produkter</a></li>
-                <li><a href="#" id="logo">Logo</a></li>
-                <li><a href="#">Kategorier</a></li>
-                <li><a href="#">Kontakt oss</a></li>
-                <li><a href="#"></a><i class="fa-regular fa-user"></i></li>
+                <ul class="meny">
+                    <li><a href="index.html" class="nav-info">Hjem</a></li>
+                    <li><a href="product.html" class="nav-info">Produkter</a></li>
+                    <li><a href="index.html" class="logo">Logo</a></li>
+                    <li><a href="#category" class="nav-info">Kategorier</a></li>
+                    <li><a href="#contact" class="nav-info">Kontakt oss</a></li>
+                </ul>
+                <ul class="ikoner">
+                    <li><a href="index.html"><i class="fa-regular fa-user fas hover-grow"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart fas hover-grow"></i></a></li>
+                    <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping fas hover-grow"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-index">
+            <section id="banner">
+                <header class="banner-container">
+                   <h1 id="banner-title" class="banner-container-item">Quis nostrud exercitation ullamco laboris nisi ut aliquip nostrud.</h1>
+                        <p id="banner-info" class="banner-container-item"> 
+                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                            sed quia consequuntur magni dolores eos qui numquam.
+                        </p>
+                    <a id="les-mer" class="banner-container-item" href="#">Les mer</a>
+                </header>
+        </section>
+
+
+        <section id="products">
+                <div class="popular-container">
+                    <h2 id="popular-title">Våre mest populære produkter</h2>
+                        <h4 id="popular-undertitle">Oppdag det beste av det beste</h4>
+                    <ul class="btn">
+                        <li><a class="new-prod knapp" href="#">New product</a></li>
+                        <li><a class="special-price knapp" href="#">Special price</a></li>
+                        <li><a class="best-sellers knapp" href="#">Best sellers</a></li>
+                    </ul>
+                    <article class="popular-productcard1">
+                        <a href="#">
+                            <i class="fa-regular fa-heart heart hover-red"></i>
+                        </a>
+                        <img src="https://picsum.photos/290/290" class="product-photo" alt="populær produkt kategori">
+                            <ul class="product-description">
+                                <li><p class="product-name">Product name</p></li>
+                                <li><p class="price">Kr 1999</p></li>
+                            </ul>
+                        <ul class="review">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><p> 842 Reviews</p></li>
+                        </ul>
+                    </article>
+
+                    <article class="popular-productcard2">
+                        <a href="#">
+                            <i class="fa-regular fa-heart heart hover-red"></i>
+                        </a>
+                        <img src="https://picsum.photos/290/290" class="product-photo" alt="populær produkt kategori">
+                            <ul class="product-description">
+                                <li><p class="product-name">Product name</p></li>
+                                <li><p class="price">Kr 1999</p></li>
+                            </ul>
+                        <ul class="review">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><p> 842 Reviews</p></li>
+                        </ul>
+                    </article>
+
+                    <article class="popular-productcard3">
+                        <a href="#">
+                            <i class="fa-regular fa-heart heart hover-red"></i>
+                        </a>
+                        <img src="https://picsum.photos/290/290" class="product-photo" alt="populær produkt kategori">
+                            <ul class="product-description">
+                                <li><p class="product-name">Product name</p></li>
+                                <li><p class="price">Kr 1999</p></li>
+                            </ul>
+                        <ul class="review">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><p> 842 Reviews</p></li>
+                        </ul>
+                    </article>
+
+                    <article class="popular-productcard4">
+                        <a href="#">
+                            <i class="fa-regular fa-heart heart hover-red"></i>
+                        </a>
+                        <img src="https://picsum.photos/290/290" class="product-photo" alt="populær produkt kategori">
+                            <ul class="product-description">
+                                <li><p class="product-name">Product name</p></li>
+                                <li><p class="price">Kr 1999</p></li>
+                            </ul>
+                        <ul class="review">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><p> 842 Reviews</p></li>
+                        </ul>
+                    </article>
+
+                    <article class="popular-productcard5">
+                        <a href="#">
+                            <i class="fa-regular fa-heart heart hover-red"></i>
+                        </a>
+                        <img src="https://picsum.photos/290/290" class="product-photo" alt="populær produkt kategori">
+                            <ul class="product-description">
+                                <li><p class="product-name">Product name</p></li>
+                                <li><p class="price">Kr 1999</p></li>
+                            </ul>
+                        <ul class="review">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><p> 842 Reviews</p></li>
+                        </ul>
+                    </article>
+
+                    <article class="popular-productcard6">
+                        <a href="#">
+                            <i class="fa-regular fa-heart heart hover-red"></i>
+                        </a>
+                        <img src="https://picsum.photos/290/290" class="product-photo" alt="populær produkt kategori">
+                            <ul class="product-description">
+                                <li><p class="product-name">Product name</p></li>
+                                <li><p class="price">Kr 1999</p></li>
+                            </ul>
+                        <ul class="review">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><p> 842 Reviews</p></li>
+                        </ul>
+                    </article>
+                </div>
+        </section>
+
+
+        <section id="category">
+                <div class="category-container">
+                        <h2 id="category-title">Våre mest populære kategorier</h2>
+                        <h4 id="category-undertitle">Oppdag det beste av det beste</h4>
+                    <article id="category1">
+                        <h5>Category 1</h5>
+                    </article>
+                    <article id="category2">
+                        <h5>Category 2</h5>
+                    </article>
+                    <article id="category3">
+                        <h5>Category 3</h5>
+                    </article>
+                    <article id="category4">
+                        <h5>Category 4</h5>
+                    </article>
+                    <article id="category5">
+                        <h5>Category 5</h5>
+                    </article>
+                </div>
+        </section>
+
+
+        <section id="reveiw-section">
+                <h3 id="review-title"> Anmeldelser</h3>
+                <div class="review-scroll-container">
+                    <article class="review-card1">
+                      <img src="https://picsum.photos/id/237/200/200" alt="bilde av brukerprofil">
+                         <p class="review-name">Fornavn Etternavn</p>
+                            <ul class="review-icons">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        <p class="review-text">Nam libero tempore, cum soluta nobis est eligendi
+                         optio cumque nihil impedit quo minus id quod maxime
+                         placeat facere possimus, omnis voluptas assumenda 
+                         est, omnis dolor repellendus. Temporibus autem quibusdam
+                         et aut officiis debitis aut rerum necessitatibus 
+                         saepe eveniet ut et voluptates repudiandae sint 
+                         et molestiae non recusandae.</p>
+                    </article>
+
+                    <article class="review-card1">
+                      <img src="https://picsum.photos/id/237/200/200" alt="bilde av brukerprofil">
+                         <p class="review-name">Fornavn Etternavn</p>
+                            <ul class="review-icons">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        <p class="review-text">Nam libero tempore, cum soluta nobis est eligendi
+                           optio cumque nihil impedit quo minus id quod maxime
+                           placeat facere possimus, omnis voluptas assumenda 
+                           est, omnis dolor repellendus. Temporibus autem quibusdam
+                           et aut officiis debitis aut rerum necessitatibus 
+                           saepe eveniet ut et voluptates repudiandae sint 
+                           et molestiae non recusandae.</p>
+                    </article>
+
+                    <article class="review-card1">
+                        <img src="https://picsum.photos/id/237/200/200" alt="bilde av brukerprofil">
+                        <p class="review-name">Fornavn Etternavn</p>
+                            <ul class="review-icons">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        <p class="review-text">Nam libero tempore, cum soluta nobis est eligendi
+                           optio cumque nihil impedit quo minus id quod maxime
+                           placeat facere possimus, omnis voluptas assumenda 
+                           est, omnis dolor repellendus. Temporibus autem quibusdam
+                           et aut officiis debitis aut rerum necessitatibus 
+                           saepe eveniet ut et voluptates repudiandae sint 
+                           et molestiae non recusandae.</p>
+                    </article>
+
+                    <article class="review-card1">
+                        <img src="https://picsum.photos/id/237/200/200" alt="bilde av brukerprofil">
+                        <p class="review-name">Fornavn Etternavn</p>
+                            <ul class="review-icons">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        <p class="review-text">Nam libero tempore, cum soluta nobis est eligendi
+                           optio cumque nihil impedit quo minus id quod maxime
+                           placeat facere possimus, omnis voluptas assumenda 
+                           est, omnis dolor repellendus. Temporibus autem quibusdam
+                           et aut officiis debitis aut rerum necessitatibus 
+                           saepe eveniet ut et voluptates repudiandae sint 
+                           et molestiae non recusandae.</p>
+                    </article>
+
+                    <article class="review-card1">
+                        <img src="https://picsum.photos/id/237/200/200" alt="bilde av brukerprofil">
+                        <p class="review-name">Fornavn Etternavn</p>
+                            <ul class="review-icons">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                                <li><i class="fa-regular fa-star"></i></li>
+                            </ul>
+                        <p class="review-text">Nam libero tempore, cum soluta nobis est eligendi
+                           optio cumque nihil impedit quo minus id quod maxime
+                           placeat facere possimus, omnis voluptas assumenda 
+                           est, omnis dolor repellendus. Temporibus autem quibusdam
+                           et aut officiis debitis aut rerum necessitatibus 
+                           saepe eveniet ut et voluptates repudiandae sint 
+                           et molestiae non recusandae.</p>
+                    </article>
+                </div>
+            </section>
+
+        </main>
+
+    <footer>
+        <div class="footer-container">
+            <section id="section1">
+                <a href="#" class="logo">Logo</a>
+                <p> Temporibus autem quibusdam et aut officiis debitis aut rerum</p>
+            </section>
+            <section id="section2">
+            <ul class="footer-list">
+                <li>
+                    <h4  id="contact" class="so-me-h4">Kontakt</h4>
+                </li>
+                <li class="adress">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="list-details">Adresse:</p>
+                    <p>B R A veien 8, 1757 Halden</p>
+                </li>
+                <li class="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="list-details">Telefon:</p>
+                    <p>69 60 80 00</p>
+                </li>
+                <li class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="list-details">E-post:</p>
+                    <p>halden@hiof.no</p>
+                </li>
+                <li class="hours">
+                    <i class="fa-solid fa-clock"></i>
+                    <p class="list-details">Åpningstider:</p>
+                    <p>Stenger 15:00</p>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <main class="main">
-        <article>
-            <h3>Banner</h3>
-        </article>
-    </main>
-    <footer class="footer">
-        <p>Tekst</p>
+            </section>
+            <section id="section3">
+                <ul class="footer-list">
+                    <li><h4 class="so-me-h4">Snarveier</h4></li>
+                    <li><a href="#products">Produkter</a></li>
+                    <li><a href="#category">Kategorier</a></li>
+                    <li><a href="#contact">Kontakt oss</a></li>
+                </ul>
+            </section>
+            <section id="section4">
+              <h4 class="so-me-h4">Sosiale medier</h4>
+                <ul class="footer-list">
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram icon-some"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook icon-some"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin icon-some"></i></a></li>
+                    <li><a href="https://no.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest icon-some"></i></a></li>
+                </ul>
+            </section>
+        </div>
     </footer>
- </div>
+  </div>
 </body>
 </html>
